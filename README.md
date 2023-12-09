@@ -4,6 +4,20 @@
 
 The goal of this project is to develop a robust spam filtering system using Natural Language Processing techniques. Spam filtering is a critical application in various domains, including email systems and messaging platforms. The project will focus on building a machine learning model capable of distinguishing between spam and non-spam messages by analyzing the text content.
 
+# Libraries Used
+
+This project utilizes the following Python libraries:
+
+- [NLTK (Natural Language Toolkit)](https://www.nltk.org/): A powerful library for working with human language data.
+
+  Make sure to download the necessary NLTK resources using the following commands:
+  ```bash
+  nltk.download('punkt')
+  nltk.download('stopwords')
+  nltk.download('wordnet')
+  nltk.download('averaged_perceptron_tagger')
+  nltk.download('tagsets')
+
 ## Key Components:
 
 ### Data Collection:
